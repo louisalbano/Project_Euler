@@ -3,7 +3,6 @@
 def fibSum(limit):
     current = 1
     next = 2
-    temp = 0
     sum = 0
     while current < limit:
         if current % 2 == 0:
